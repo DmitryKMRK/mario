@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Mario</title>
+  </head>
+  <body>
+    <div class="field">
+      <div class="mario"></div>
+      <div class="princess"></div>
+      <div class="modal modal-start">
+        <h1>Начать игру</h1>
+        <img src="img/modal-start.png" alt="start" width="400" height="187">
+        <button class="modal__btn modal-start__btn">Поехали!</button>
+      </div>
+      <div class="modal modal-finish">
+        <h1>Ура! Победа!</h1>
+        <img src="img/modal-finish.png" width="350" height="432" alt="win">
+        <button class="modal__btn modal-finish__btn">Ещё раз!</button>
+      </div>
+      <div class="modal modal-lose">
+        <h1>Вы проиграли :( Попробуем еще?</h1>
+        <img src="img/modal-lose.png" width="300" height="372" alt="lose">
+        <button class="modal__btn modal-lose__btn">Вперед!</button>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
