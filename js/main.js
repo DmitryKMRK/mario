@@ -19,7 +19,7 @@ var ENEMY_HEIGHT = 40;
 var PADDING_LEFT = 20;
 var PADDING_RIGHT = field.offsetWidth - 50;
 var PADDING_TOP = 40;
-var PADDING_BOTTOM = field.offsetHeight - 85;
+var PADDING_BOTTOM = field.offsetHeight - 90;
 
 function random(min, max) {
   return Math.floor(min + Math.random() * (max + 1 - min));
